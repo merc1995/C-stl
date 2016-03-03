@@ -1,5 +1,5 @@
 /*
- *
+ *  双向队列
  * Copyright (c) 1994
  * Hewlett-Packard Company
  *
