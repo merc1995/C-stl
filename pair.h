@@ -1,5 +1,5 @@
 /*
- *
+ *pair和map的联系：map中的一个元素，element就是一个pair
  * Copyright (c) 1994
  * Hewlett-Packard Company
  *
