@@ -27,13 +27,25 @@
 
 
 // This file covers the following concepts:
-//       _Container  容器
-//       _ForwardContainer		前向容器
+//       _Container  容器		vector
+//       _ForwardContainer		前向容器	
+/* vector
+list
+slist
+deque
+set
+hash_set
+map
+hash_map
+multiset
+hash_multiset
+multimap
+hash_multimap */
 //A Forward Container is a Container whose elements are arranged in a definite order: the ordering will not change spontaneously from iteration to iteration. //The requirement of a definite ordering allows the definition of element-by-element equality (if the container's element type is Equality Comparable) and of //lexicographical ordering (if the container's element type is LessThan Comparable).
-//       _ReversibleContainer	可逆容器
+//       _ReversibleContainer	可逆容器    vector   deque	list
 // A Reversible Container is a Forward Container whose iterators are Bidirectional Iterators. It allows backwards iteration through the container.
 //       _const_ReversibleContainer 
-//       _RandomAccessContainer  隨機讀取容器
+//       _RandomAccessContainer  隨機讀取容器	vector   deque
 //A Random Access Container is a Reversible Container whose iterator type is a Random Access Iterator. It provides amortized constant time access to arbitrary elements. 有點類似數組的樣子
 
 struct _ERROR_IN_STL_CONTAINER {
